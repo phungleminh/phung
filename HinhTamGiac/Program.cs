@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace HinhTamGiac
 {
@@ -6,36 +10,22 @@ namespace HinhTamGiac
     {
         static void Main(string[] args)
         {
-            // nhap 3 canh tam giac
-            Console.WriteLine("Nhap canh a");
+            Console.WriteLine("Nhap canh A");
             double a = double.Parse(Console.ReadLine());
-            Console.WriteLine("Nhap canh b");
+            Console.WriteLine("Nhap canh B");
             double b = double.Parse(Console.ReadLine());
-            Console.WriteLine("Nhap canh c");
+            Console.WriteLine("Nhap canh C");
             double c = double.Parse(Console.ReadLine());
+            double chuvi = a + b + c;
 
-            /* /IAsyncDisposableas
-            asd
-            asd
-            as
-            das
-            das
-            das
-            a
-            */
-            double chuVi = a + b + c;
-            double P = chuVi / 2;
-            double dienTich =
-                Math.Sqrt(
-                    P
-                    *(P - a)
-                    *(P - b)
-                    *(P - c)
-                    );
-            Console.WriteLine(
-                @"CV:{0},DT:\{1}", 
-                chuVi, 
-                dienTich);
+            double p = chuvi / 2;
+            double s = Math.Sqrt(Math.Sqrt(p*(p - a) * (p - b) * (p - c)));
+            Console.WriteLine("Chu vi la {0}", chuvi,
+            @"Dien tich la {1}", s);
+
+            Console.ReadKey();
         }
+        
+        
     }
 }

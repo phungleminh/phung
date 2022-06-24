@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8111C7A1-F3EE-43FE-871F-C7C28A92650B}</ProjectGuid>
+    <ProjectGuid>{62E70EEE-8F9A-4A07-A94F-5CBF2DF3355E}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>NgoaiLe</RootNamespace>
     <AssemblyName>NgoaiLe</AssemblyName>

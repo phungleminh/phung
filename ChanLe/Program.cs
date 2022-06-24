@@ -10,16 +10,20 @@ namespace ChanLe
     {
         static void Main(string[] args)
         {
+            int a;
             Console.WriteLine("Nhap A");
-            int a = int.Parse(Console.ReadLine());
-            if (a % 2 == 0)
+            a = int.Parse(Console.ReadLine());
+            if (a%2==0)
             {
-                Console.WriteLine("La So Chan");
+                Console.WriteLine("La so chan");
+
+            }else
+            {
+                Console.WriteLine("La so le");
+
             }
-            else { 
-                Console.WriteLine("La So Le");
-            }
-            Console.ReadKey(); 
+            Console.ReadKey();
+
         }
     }
 }

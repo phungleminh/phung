@@ -6,29 +6,32 @@ using System.Threading.Tasks;
 
 namespace NgoaiLe
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
+	class Program
+	{
+		static void Main(string[] args)
+		{
 			try
 			{
 				Console.WriteLine("Nhap So Nguyen A");
 				int a;
+
 				bool kt = int.TryParse(Console.ReadLine(), out a);
+				Console.WriteLine("a là {0}", a);
 				if(kt == false)
 				{
-					// không phai so nguyen
-					throw new Exception("Ban nhan khong dung!");
+					//không phải số nguyên
+					throw new Exception("Ban nhap khong dung!"); 
 				}
-				Console.WriteLine("A la: {0}", a);
+				
 
 			}
 			catch (Exception ex)
 			{
 				Console.WriteLine(ex.Message);
 			}
-			Console.ReadKey();
 
-        }
-    }
+			Console.ReadKey();
+		}
+	}
+
 }

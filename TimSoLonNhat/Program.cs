@@ -10,41 +10,38 @@ namespace TimSoLonNhat
     {
         static void Main(string[] args)
         {
-            // nhap 3 so nguyen tu ban phim
-            Console.WriteLine("Nhap so a");
-            int a = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("Nhap so b");
-            int b = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("Nhap so c");
-            int c = int.Parse(Console.ReadLine());
-            // lam sao tìm so lớn nhát trong 3 số
-
+            // nhập 3 số nguyên từ bàn phím 
+            int a, b, c;
+            Console.WriteLine("Nhập A");
+            a = int.Parse(Console.ReadLine());
+            Console.WriteLine("Nhập B");
+            b = int.Parse(Console.ReadLine());
+            Console.WriteLine("Nhập C");
+            c = int.Parse(Console.ReadLine());
+            // làm sao tìm số lớn nhất trong 3 số
             int max = a;
             if (max < b)
             {
                 max = b;
             }
-
             if (max < c)
             {
                 max = c;
             }
-            Console.WriteLine("So Lon Nhat la: {0}", max);
+
             int min = a;
             if (min > b)
             {
                 min = b;
             }
-
             if (min > c)
             {
                 min = c;
             }
-            Console.WriteLine("So Nho Nhat la: {0}", min);
-            Console.ReadKey();
+            Console.WriteLine("Số lớn nhất là: {0}", max);
+            Console.WriteLine("Số bé nhất là: {0}", min);
 
+            Console.ReadKey();
         }
     }
 }

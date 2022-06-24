@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7A901CA0-76F8-4494-AE13-BC3D32A129DC}</ProjectGuid>
+    <ProjectGuid>{0246D523-51E6-4F98-BC9D-6DD77C13DF6C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>ToanTu</RootNamespace>
     <AssemblyName>ToanTu</AssemblyName>

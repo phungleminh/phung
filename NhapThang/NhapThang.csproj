@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{533ADBE6-E5EB-41B9-9AB9-778C8B5BCF5D}</ProjectGuid>
+    <ProjectGuid>{933C026C-C08E-4DC1-84D4-523A84F29808}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>NhapThang</RootNamespace>
     <AssemblyName>NhapThang</AssemblyName>
